@@ -291,6 +291,8 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	background-size: 100% 100%;
 	background-size: cover;
 	position: relative;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
 }
 .banner-container > img {
 	width: 100%;
@@ -349,6 +351,7 @@ border: 1px solid #5887FF;
 .banner-content .hireMe:hover{
 background:#5887FF;
 color:#fff;
+scroll-behavior: smooth;
 }
 .banner-content .hireMe{
 background: #fff;
@@ -360,6 +363,8 @@ width: 90px;
 color:#000;
 padding:8px 5px;
 margin-top:25px;
+scroll-behavior:smooth;
+transition: all 400ms;
 }
 .banner-content header  h1{
  text-align:center;
@@ -482,7 +487,7 @@ padding:60px 0;
 }
 .tileBox img{
 overflow:hidden;
-border-radius:120px;
+border-radius:0px;
 width:300px;
 box-shadow: 12px 0px 0px 12px rgba(13, 113, 165, 0.2), -12px 0px 0px 12px rgba(109, 139, 232, 0.2);
 }
@@ -495,7 +500,7 @@ box-shadow: 12px 0px 0px 12px rgba(13, 113, 165, 0.2), -12px 0px 0px 12px rgba(1
 /*parlex*/
 .bg-parlex {
 	padding-top: 0px;
-	background-image: url('../images/banner-bg.jpg');
+	background-image: url('../images/Chicago lightning crop3.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
