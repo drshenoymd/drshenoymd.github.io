@@ -376,15 +376,15 @@ scroll-behavior:smooth;
  text-align:center;
  margin: 0;
 padding: 0;
-font-size: 4.5em;
-font-weight: 700;
+font-size: 3.2em;
+font-weight: 600;
 letter-spacing: .1em;
 line-height: 1em;
 text-transform: uppercase;
 }
 .banner-content header p{
  text-align:center;
- font-size: 1 em;
+ font-size: 1.25em;
 margin-bottom: 5px;
 padding: 0 8px;
 letter-spacing: .1em;
@@ -462,7 +462,7 @@ float: none;
 	border: 2px solid rgba(255, 255, 255, 0.6);
 }
 .secPad {
-	padding: 60px 0;
+	padding: 0px 0;
 }
 /*Intro Content*/
 #introText {
