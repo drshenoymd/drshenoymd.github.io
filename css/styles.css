@@ -284,14 +284,14 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 /*--- Banner ----*/
 .banner-container {
 	width: 100%;
+	height:  100%;
 	position: relative;
-	padding: 0px;
+	padding-bottom: 120px;
 	box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
 	/*background: url("../images/banner-bg.jpg") no-repeat;*/
 	background-size: 100% 100%;
 	background-size: cover;
-	position: relative;
-	overflow-y: scroll;
+	/*---overflow-y: scroll;---*/
 	scroll-behavior: smooth;
 }
 html { 
@@ -303,6 +303,7 @@ html {
 
 .banner-container > img {
 	width: 100%;
+	height:  100%;
 	
 }
 .banner-content {
@@ -311,6 +312,7 @@ html {
 	top: 0px;
 	left: 0px;
 	right: 0px;
+	bottom: 0px;
 }
 .banner-content h2 {
 	color: #fff;
@@ -368,8 +370,9 @@ display: block;
 text-align: center;
 width: 250px;
 color:#000;
-padding:8px 5px;
+padding:8px 8px;
 margin-top:25px;
+margin-bottom:25px;
 scroll-behavior:smooth;
 }
 .banner-content header  h1{
